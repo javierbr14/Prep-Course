@@ -1,7 +1,7 @@
-:// En estas primeras 6 preguntas, reemplaza `null` por la respuesta
+// En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "hola";
+const nuevaString = "javier";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 8;
@@ -72,7 +72,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str.length;
+  return (str1.length === str2.length);
+	
 }
 
 function menosQueNoventa(num) {
@@ -125,8 +126,10 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return math.pow (num, 2);
+  return num * num;
+
 }
+
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
@@ -137,8 +140,9 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return math.pow(num, exponent);
+  return Math.pow(num, exponent);
 }
+
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
@@ -156,13 +160,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -171,8 +175,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero === 0) {
-    return false;	  
+    return false;
 }
+
 else if(numero > 0) {
     return "Es positivo";
   }
