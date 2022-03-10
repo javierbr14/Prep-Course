@@ -1,2 +1,6 @@
 
+// for: este bucle se utiliza para repetir una o mas instrucciones una determinada cantidad de veces.
+// &&: es un operador logico con significado AND "Y", eje.: hacer funcion 1 AND funcion 2 AND funcion 3.
+// ||:  este operador logico es OR, eje.: funcion 1 OR funcion 2 OR funcion 3.
+// !: este operador logino es de negacion NOT, eje.: NOT funcion 1
 
