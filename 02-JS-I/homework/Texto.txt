@@ -1,0 +1,6 @@
+
+// Variables: forma de almacenar el valor de algo para usar luego.
+// Strings: estos son bloques de texto, se definen siempre entre comillas.
+// Funciones (argumentos, "return"): 
+// Declaraciones "if"
+// Valores booleanos ("true", "false")
