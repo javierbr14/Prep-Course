@@ -2,5 +2,7 @@
 // Variables: forma de almacenar el valor de algo para usar luego.
 // Strings: estos son bloques de texto, se definen siempre entre comillas.
 // Funciones (argumentos, "return"): 
-// Declaraciones "if"
-// Valores booleanos ("true", "false")
+	Argumentos, es lo que se agrega entre parentesis en una funcion, estos pueden ser string o numeros.
+	return, esta declaracion se utiliza para devolver un valor particular de la funcion a la persona que llama la funcion. La funcion dejara de ejecutarse cuando se llame a la declaracion de return.
+// Declaraciones "if": es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en funcion de una expresion.
+// Valores booleanos ("true", "false"): es una variable que solo tiene 2 posibles valores (true, false), esto puede significar como si/no, puede/no puede...
